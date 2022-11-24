@@ -19,12 +19,16 @@ const Dev = ({
       setName("Daryl Magpantay");
       setRole("Manager");
       setImage("daryl.svg");
+      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
       setCarousel(5);
     }
     if (carousel == 1) {
       setName("Richard Manipon");
       setRole("Designer");
       setImage("manipon.svg");
+      setIntro(
+        "I will take responsibility for what I have done. If I must fall, I will rise each time a better man. -Brandon Sanderson, Oathbringer"
+      ); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 2) {
       setName("Louise Yagi");
@@ -35,21 +39,27 @@ const Dev = ({
       setName("Justine Upano");
       setRole("Developer");
       setImage("justine.svg");
+      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 4) {
       setName("James Ferrer");
       setRole("Designer");
       setImage("james.svg");
+      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 5) {
       setName("Daryl Magpantay");
       setRole("Manager");
       setImage("daryl.svg");
+      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 6) {
       setName("Richard Manipon");
       setRole("Designer");
       setImage("manipon.svg");
+      setIntro(
+        "I will take responsibility for what I have done. If I must fall, I will rise each time a better man. -Brandon Sanderson, Oathbringer"
+      ); // LAGAY NIYO DITO ABOUT SAINYO
       setCarousel(1);
     }
   });
