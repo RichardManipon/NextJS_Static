@@ -28,7 +28,7 @@ const Dev = ({
       setName("Richard Manipon");
       setRole("Designer");
       setImage("manipon.svg");
-      setQuote(""I will take responsibility for what I have done. If I must fall, I will rise each time a better man" -Brandon Sanderson, Oathbringer"); // LAGAY QUOTE
+      setQuote("I will take responsibility for what I have done. If I must fall, I will rise each time a better man -Brandon Sanderson, Oathbringer"); // LAGAY QUOTE
       setIntro(
         ''
       ); // LAGAY NIYO DITO ABOUT SAINYO
@@ -37,8 +37,10 @@ const Dev = ({
       setName("Louise Yagi");
       setRole("Developer");
       setImage("yagi.svg");
-      setQuote(""); // LAGAY QUOTE
-      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
+      setQuote(
+        "If you are not a good shot today, don't worry. There are other ways to be useful. -Sova"); // LAGAY QUOTE
+      setIntro(
+        "I am a passionate student that excel in coding and designing using Java, C, C++, C#, PHP, Ruby, and most especially Python."); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 3) {
       setName("Justine Upano");
