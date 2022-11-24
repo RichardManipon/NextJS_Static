@@ -45,11 +45,11 @@ const Dev = ({
       setRole("Developer");
       setImage("justine.svg");
       setQuote(
-        "I am a student, and a passionate front-end developer with a sharp eye for details."
-      ); // LAGAY QUOTE
-      setIntro(
         '"Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code." - Dan Salomon'
-      ); // LAGAY NIYO DITO ABOUT SAINYO
+      );
+      setIntro(
+        "I am a student, and a passionate front-end developer with a sharp eye for details."
+      );
     }
     if (carousel == 4) {
       setName("James Ferrer");
