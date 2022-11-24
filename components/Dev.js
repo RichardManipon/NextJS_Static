@@ -58,11 +58,11 @@ const Dev = ({
       setRole("Designer");
       setImage("james.svg");
       setQuote(
-        "22 years old computer engineering student at Technological University of the Philippines – Cavite."
+        '"It is what it is."'
         ); 
       setIntro(
-        '"It is what it is."')
-        ; 
+        "22 years old computer engineering student at Technological University of the Philippines – Cavite."
+        );
     }
     if (carousel == 5) {
       setName("Daryl Magpantay");
