@@ -1,0 +1,63 @@
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  padding: 0 80px;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 999;
+}
+
+.logo a {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: rgb(224, 224, 224);
+  text-shadow: 2px 2px #36007c;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: rgb(97, 97, 97);
+  width: 260px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  width: 30px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 2px;
+  width: 100%;
+  background-color: gray;
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    padding: 0 30px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,0 +1,72 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 80px 0px 80px;
+}
+
+.text {
+  width: 50%;
+  max-width: 680px;
+}
+
+.spanintro {
+  font-family: "Inter", "sans-serif";
+  font-weight: 600;
+  color: #939393;
+}
+
+.h1 {
+  font-family: "Inter", "sans-serif";
+  font-size: 3rem;
+  color: #00155e;
+}
+
+.p {
+  font-size: 1rem;
+  color: #101010;
+}
+
+.contactbtn1 {
+  font-family: "Inter", "sans-serif";
+  padding: 5px 20px;
+  border: 2px solid #172864;
+  background-color: white;
+  color: #172864;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.contactbtn1:hover {
+  background-color: #172864;
+  color: white;
+  transition: 100ms;
+}
+
+.hero {
+  height: 50%;
+  width: 50%;
+  max-width: 570px;
+  max-height: 520px;
+}
+
+@media screen and (max-width: 700px) {
+  .home {
+    flex-direction: column;
+    padding: 90px 30px 60px 30px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero {
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+  }
+}

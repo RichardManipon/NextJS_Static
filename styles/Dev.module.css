@@ -1,0 +1,77 @@
+.dev {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.p {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #050c27;
+}
+
+.text {
+  width: 50%;
+}
+
+.name {
+  font-family: "Inter", "sans-serif";
+  color: #172864;
+  font-weight: 700;
+}
+
+.role {
+  font-family: "Inter", "sans-serif";
+  color: #4b4d5486;
+  font-weight: 400;
+}
+
+.imgdiv {
+  position: relative;
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.btngroup {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  width: 97px;
+  height: 33px;
+  box-shadow: 0px 4px 4px #0000005e;
+}
+
+.btngroup img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .dev {
+    flex-direction: column-reverse;
+    padding: 60px 30px;
+    justify-content: center;
+  }
+  .text {
+    width: 100%;
+  }
+  .imgdiv {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
