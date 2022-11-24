@@ -28,9 +28,9 @@ const Dev = ({
       setName("Richard Manipon");
       setRole("Designer");
       setImage("manipon.svg");
-      setQuote(""); // LAGAY QUOTE
+      setQuote(""I will take responsibility for what I have done. If I must fall, I will rise each time a better man" -Brandon Sanderson, Oathbringer"); // LAGAY QUOTE
       setIntro(
-        '"I will take responsibility for what I have done. If I must fall, I will rise each time a better man" -Brandon Sanderson, Oathbringer'
+        ''
       ); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 2) {
