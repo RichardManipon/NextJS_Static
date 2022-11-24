@@ -38,7 +38,7 @@ const Dev = ({
       setRole("Developer");
       setImage("yagi.svg");
       setQuote(
-        "If you are not a good shot today, don't worry. There are other ways to be useful. -Sova"); // LAGAY QUOTE
+        '"If you are not a good shot today, don’t worry. There are other ways to be useful." - Sova'); // LAGAY QUOTE
       setIntro(
         "I am a passionate student that excel in coding and designing using Java, C, C++, C#, PHP, Ruby, and most especially Python."); // LAGAY NIYO DITO ABOUT SAINYO
     }
