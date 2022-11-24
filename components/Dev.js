@@ -54,11 +54,15 @@ const Dev = ({
       );
     }
     if (carousel == 4) {
-      setName("James Ferrer");
+      setName("James Matthew Ferrer");
       setRole("Designer");
       setImage("james.svg");
-      setQuote(""); // LAGAY QUOTE
-      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
+      setQuote(
+        '"It is what it is."'
+        ); 
+      setIntro(
+        "22 years old computer engineering student at Technological University of the Philippines – Cavite."
+        );
     }
     if (carousel == 5) {
       setName("Daryl Magpantay");
