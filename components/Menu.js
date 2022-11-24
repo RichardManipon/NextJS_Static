@@ -27,6 +27,9 @@ const Menu = ({ setHamburgerMenu }) => {
         <li>
           <a href="#contact">Contact</a>
         </li>
+        <li>
+          <a href="#">Dashboard</a>
+        </li>
       </ul>
     </div>
   );
