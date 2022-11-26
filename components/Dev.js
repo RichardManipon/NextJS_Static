@@ -30,7 +30,7 @@ const Dev = ({
       setImage("manipon.svg");
       setQuote("I will take responsibility for what I have done. If I must fall, I will rise each time a better man -Brandon Sanderson, Oathbringer"); // LAGAY QUOTE
       setIntro(
-        ''
+        'I am a student at the Technological University of the Philippines - Cavite Campus, and I often play videogames to relieve my stress.'
       ); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 2) {
