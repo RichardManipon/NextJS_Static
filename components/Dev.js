@@ -21,7 +21,7 @@ const Dev = ({
       setName("Daryl Magpantay");
       setRole("Manager");
       setImage("daryl.svg");
-      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
+      setIntro("I am a student of Technological University of the Philippines"); // LAGAY NIYO DITO ABOUT SAINYO
       setCarousel(5);
     }
     if (carousel == 1) {
@@ -68,8 +68,8 @@ const Dev = ({
       setName("Daryl Magpantay");
       setRole("Manager");
       setImage("daryl.svg");
-      setQuote(""); // LAGAY QUOTE
-      setIntro(""); // LAGAY NIYO DITO ABOUT SAINYO
+      setQuote("Tres is goods!!"); // LAGAY QUOTE
+      setIntro("I am a student of Technological University of the Philippines"); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 6) {
       setName("Richard Manipon");
