@@ -21,7 +21,7 @@ const Goal = () => {
         <div className={styles.text}>
           <h4 className={styles.span}>Business</h4>
           <p>
-          Iskulbukul creates material that is competitive for the worldwide market and is 
+          Iskulbukul creates materials that are competitive for the worldwide market and are 
           constantly looking for reliable content sources. We are among the leading agile 
           innovators and application designers in the Philippines. We build precisely to 
           the needs of our clients by utilizing the Agile technique (Scrum) along with a 
