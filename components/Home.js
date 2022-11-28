@@ -13,7 +13,7 @@ const Home = () => {
           organizations all over the world outstanding software, web, mobile,
           and creative designing solutions and services.
         </p>
-        <a href="#contact" className={styles.contactbtn1}>
+        <a href="/contact" className={styles.contactbtn1}>
           <div></div>
           <span>Contact Us</span>
           <img src="/arrowright.svg" alt="" />
