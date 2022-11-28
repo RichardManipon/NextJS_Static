@@ -1,46 +1,104 @@
 .home {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  height: 100vh;
   padding: 80px 80px 0px 80px;
 }
 
 .text {
-  width: 50%;
-  max-width: 680px;
+  width: 100%;
+  max-width: 960px;
+  /* margin-top: 80px; */
 }
 
 .spanintro {
   font-family: "Inter", "sans-serif";
   font-weight: 600;
-  color: #939393;
+  color: var(--spanintrocolor);
 }
 
 .h1 {
+  position: relative;
   font-family: "Inter", "sans-serif";
-  font-size: 3rem;
-  color: #00155e;
+  font-size: var(--h1sized);
+  color: var(--hcolor);
+  z-index: -1;
+}
+
+.circle1 {
+  position: absolute;
+  top: 0;
+  transform: translateY(-10%);
+  height: 447px;
+  width: 447px;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.circle2 {
+  position: absolute;
+  right: 10%;
+  transform: translateY(-50%);
+  height: 140px;
+  width: 140px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  z-index: -2;
 }
 
 .p {
-  font-size: 1rem;
-  color: #101010;
+  width: 80%;
+  font-size: var(--psized);
+  color: var(--pcolor);
+  z-index: 1;
 }
 
 .contactbtn1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
   font-family: "Inter", "sans-serif";
-  padding: 5px 20px;
-  border: 2px solid #172864;
-  background-color: white;
-  color: #172864;
+  color: #000000c7;
   font-weight: 700;
   cursor: pointer;
+  z-index: 2;
 }
 
-.contactbtn1:hover {
-  background-color: #172864;
-  color: white;
-  transition: 100ms;
+.contactbtn1 div {
+  height: 42px;
+  width: 42px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  z-index: -1;
+  transition: 200ms ease;
+}
+
+.contactbtn1 img {
+  animation: contactarrow 2000ms ease infinite;
+}
+
+.contactbtn1 span {
+  transform: translateX(-25%);
+}
+
+.contactbtn1:hover img {
+  opacity: 0;
+}
+
+.contactbtn1:hover div {
+  transform: translateX(270%);
+}
+
+@keyframes contactarrow {
+  0% {
+    margin-left: -15px;
+  }
+  50% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -15px;
+  }
 }
 
 .hero {
@@ -61,12 +119,30 @@
   }
 
   .h1 {
-    font-size: 1.75rem;
+    font-size: var(--h1sizem);
+  }
+
+  .p {
+    font-size: var(--psizem);
   }
 
   .hero {
     margin-top: 30px;
     height: 100%;
     width: 100%;
+  }
+
+  .circle1 {
+    height: 180px;
+    width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .circle2 {
+    height: 55px;
+    width: 55px;
+    right: 20%;
+    /* transform: translate(50%); */
   }
 }

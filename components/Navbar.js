@@ -1,23 +1,52 @@
 import styles from "../styles/Navbar.module.css";
+import router from "next/router";
+import Link from "next/link";
 
-const Navbar = ({ setHamburgerMenu }) => {
+const Navbar = ({ setHamburgerMenu, page, setPage }) => {
+  const handleHomeLink = (e) => {
+    e.preventDefault();
+    setPage(true);
+    setTimeout(() => {
+      router.push("/");
+      setPage(false);
+    }, 2000);
+  };
+  const handleAboutLink = (e) => {
+    e.preventDefault();
+    setPage(true);
+    setTimeout(() => {
+      router.push("/about");
+      setPage(false);
+    }, 2000);
+  };
+  const handleContactLink = (e) => {
+    e.preventDefault();
+    setPage(true);
+    setTimeout(() => {
+      router.push("/contact");
+      setPage(false);
+    }, 2000);
+  };
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <a href="#home">Iskulbukul</a>
+        <Link href="/">Iskulbukul</Link>
       </div>
       <ul className={styles.links}>
         <li>
-          <a href="#home">Home</a>
+          <Link href="/" onClick={handleHomeLink}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#goals">Goals</a>
+          <Link href="/about" onClick={handleAboutLink}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <Link href="#contact" onClick={handleContactLink}>
+            Contact
+          </Link>
         </li>
       </ul>
       <button

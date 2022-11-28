@@ -3,5 +3,12 @@ import Image from "next/image";
 import App from "../components/App";
 
 export default function Index() {
-  return <App />;
+  return (
+    <div>
+      <Head>
+        <title>Iskulbukul</title>
+      </Head>
+      <App />
+    </div>
+  );
 }

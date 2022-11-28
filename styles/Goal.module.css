@@ -2,6 +2,25 @@
   padding: 80px 80px;
 }
 
+.remarkable {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 80px 0;
+}
+
+.remarkable h2 {
+  font-family: "Inter", "sans-serif";
+  color: var(--hcolor);
+  font-size: var(--h2sized);
+}
+
+.remarkable img {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  max-height: 260px;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -33,9 +52,24 @@
   font-weight: 700;
 }
 
+.spanintro {
+  font-family: "Inter", "sans-serif";
+  font-weight: 300;
+  color: var(--spanintrocolor);
+}
+
 @media screen and (max-width: 700px) {
   .goal {
-    padding: 60px 30px;
+    padding: 80px 30px;
+  }
+  .remarkable {
+    flex-direction: column;
+  }
+  .spanintro {
+    font-size: var(--spanintrosizem);
+  }
+  .remarkable h2 {
+    font-size: var(--h2sizem);
   }
   .row {
     flex-direction: column-reverse;
@@ -47,5 +81,8 @@
   }
   .text {
     width: 100%;
+  }
+  .p {
+    font-size: var(--psizem);
   }
 }
