@@ -1,6 +1,5 @@
 .contactbg {
   padding: 60px 80px;
-  background-color: #172864;
 }
 
 .spanintro {
@@ -11,13 +10,14 @@
 
 .h1 {
   font-family: "Inter", "sans-serif";
-  font-size: 3rem;
-  color: #ffffff;
+  font-size: var(--h1sized);
+  color: var(--hcolor);
 }
 
 .p {
-  font-size: 1rem;
-  color: #ffffff;
+  font-size: var(--psized);
+  color: var(--pcolor);
+  width: 50%;
 }
 
 .inputdiv {
@@ -38,7 +38,7 @@
 
 .inputspan {
   font-family: "Inter", "sans-serif";
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -60,13 +60,29 @@
   border: 2px solid #ffffff;
   transition: 100ms;
 }
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 80px;
+}
 
+.copyright img {
+  margin-left: 10px;
+}
 @media screen and (max-width: 700px) {
   .contactbg {
     padding: 60px 30px;
   }
   .h1 {
     font-size: 2rem;
+  }
+  .p {
+    width: 100%;
   }
   .inputdiv {
     width: 100%;

@@ -6,7 +6,7 @@
   width: 100%;
   z-index: 1001;
   margin-left: 0px;
-  animation: removediv 1000ms ease 2300ms forwards;
+  animation: removediv 800ms ease 2000ms forwards;
 }
 
 .precssanimate > div {
@@ -36,27 +36,27 @@
 }
 
 .precssanimate div:nth-child(1) {
-  animation: startlinkdiv 1000ms ease 900ms forwards;
+  animation: startlinkdiv 800ms ease 900ms forwards;
 }
 
 .precssanimate div:nth-child(2) {
-  animation: startlinkdiv 1000ms ease 1100ms forwards;
+  animation: startlinkdiv 800ms ease 1100ms forwards;
 }
 
 .precssanimate div:nth-child(3) {
-  animation: startlinkdiv 1000ms ease 1200ms forwards;
+  animation: startlinkdiv 800ms ease 1200ms forwards;
 }
 
 .precssanimatechange div:nth-child(1) {
-  animation: changelinkdiv 1000ms ease 0ms forwards;
+  animation: changelinkdiv 800ms ease 0ms forwards;
 }
 
 .precssanimatechange div:nth-child(2) {
-  animation: changelinkdiv 1000ms ease 100ms forwards;
+  animation: changelinkdiv 800ms ease 100ms forwards;
 }
 
 .precssanimatechange div:nth-child(3) {
-  animation: changelinkdiv 1000ms ease 200ms forwards;
+  animation: changelinkdiv 800ms ease 200ms forwards;
 }
 
 @keyframes changelinkdiv {
