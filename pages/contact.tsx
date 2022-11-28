@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ContactComp from "../components/Contact";
 
 const Contact = () => {
   return (
@@ -6,6 +7,7 @@ const Contact = () => {
       <Head>
         <title>Iskulbukul | Contact</title>
       </Head>
+      <ContactComp />
     </div>
   );
 };
