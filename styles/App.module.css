@@ -1,0 +1,90 @@
+.precssanimate {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  z-index: 1001;
+  margin-left: 0px;
+  animation: removediv 1000ms ease 2300ms forwards;
+}
+
+.precssanimate > div {
+  flex: 1;
+  height: 33.3%;
+  width: 100%;
+  background-color: var(--hcolor);
+  margin-left: 0px;
+}
+
+.precssanimatechange > div {
+  flex: 1;
+  height: 33.3%;
+  width: 100%;
+  background-color: var(--hcolor);
+  margin-left: -100%;
+}
+
+.precssanimatechange {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  z-index: 1001;
+  margin-left: 0px;
+}
+
+.precssanimate div:nth-child(1) {
+  animation: startlinkdiv 1000ms ease 900ms forwards;
+}
+
+.precssanimate div:nth-child(2) {
+  animation: startlinkdiv 1000ms ease 1100ms forwards;
+}
+
+.precssanimate div:nth-child(3) {
+  animation: startlinkdiv 1000ms ease 1200ms forwards;
+}
+
+.precssanimatechange div:nth-child(1) {
+  animation: changelinkdiv 1000ms ease 0ms forwards;
+}
+
+.precssanimatechange div:nth-child(2) {
+  animation: changelinkdiv 1000ms ease 100ms forwards;
+}
+
+.precssanimatechange div:nth-child(3) {
+  animation: changelinkdiv 1000ms ease 200ms forwards;
+}
+
+@keyframes changelinkdiv {
+  0% {
+    margin-left: -100%;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes startlinkdiv {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -100%;
+  }
+}
+
+@keyframes removediv {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -100%;
+  }
+}
