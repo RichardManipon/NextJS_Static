@@ -1,0 +1,93 @@
+.processintro {
+  padding: 80px 80px;
+}
+
+.flexprocess {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 40%;
+}
+
+.spanintro {
+  font-family: "Inter", "sans-serif";
+  color: var(--spanintrocolor);
+  font-size: var(--spanintrosized);
+}
+
+.h2 {
+  color: var(--hcolor);
+  font-size: var(--h2sized);
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  max-height: 320px;
+  max-width: 520px;
+}
+
+.processes {
+  width: 50%;
+}
+
+.processes > div {
+  position: relative;
+  padding: 30px 30px 30px 70px;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.26);
+  margin-bottom: 30px;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", "sans-serif";
+  font-size: 3rem;
+  color: white;
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  background-color: #6c63ff;
+}
+
+@media screen and (max-width: 700px) {
+  .processintro {
+    padding: 80px 30px;
+  }
+  .spanintro {
+    font-size: var(--spanintrosizem);
+  }
+  .text {
+    width: 100%;
+  }
+  .h2 {
+    font-size: var(--h2sizem);
+  }
+  .processes {
+    margin-top: 80px;
+    width: 100%;
+  }
+  .flexprocess {
+    flex-direction: column;
+  }
+  .processes > div {
+    padding: 70px 30px 30px 30px;
+    margin-bottom: 60px;
+  }
+  .number {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 47px;
+    width: 47px;
+    font-size: 1.75rem;
+  }
+}
