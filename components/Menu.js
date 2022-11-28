@@ -16,19 +16,13 @@ const Menu = ({ setHamburgerMenu }) => {
 
       <ul className={styles.links}>
         <li>
-          <a href="#home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#goals">Goals</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <a href="#">Dashboard</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </div>

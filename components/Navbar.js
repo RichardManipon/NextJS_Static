@@ -9,7 +9,7 @@ const Navbar = ({ setHamburgerMenu, page, setPage }) => {
     setTimeout(() => {
       router.push("/");
       setPage(false);
-    }, 2000);
+    }, 950);
   };
   const handleAboutLink = (e) => {
     e.preventDefault();
@@ -17,7 +17,7 @@ const Navbar = ({ setHamburgerMenu, page, setPage }) => {
     setTimeout(() => {
       router.push("/about");
       setPage(false);
-    }, 2000);
+    }, 950);
   };
   const handleContactLink = (e) => {
     e.preventDefault();
@@ -25,7 +25,7 @@ const Navbar = ({ setHamburgerMenu, page, setPage }) => {
     setTimeout(() => {
       router.push("/contact");
       setPage(false);
-    }, 2000);
+    }, 950);
   };
   return (
     <nav className={styles.nav}>
@@ -44,7 +44,7 @@ const Navbar = ({ setHamburgerMenu, page, setPage }) => {
           </Link>
         </li>
         <li>
-          <Link href="#contact" onClick={handleContactLink}>
+          <Link href="/contact" onClick={handleContactLink}>
             Contact
           </Link>
         </li>

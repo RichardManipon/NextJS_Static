@@ -8,15 +8,12 @@ import ContactIntro from "/components/ContactIntro";
 import Footer from "/components/Footer";
 import Goal from "/components/Goal";
 import styles from "../styles/App.module.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const [page, setPage] = useState(false);
 
-  // useEffect(() => {
-  //   setPage(false);
-  // });
   return (
     <div>
       {page ? (

@@ -28,9 +28,11 @@ const Dev = ({
       setName("Richard Manipon");
       setRole("Designer");
       setImage("manipon.svg");
-      setQuote("I will take responsibility for what I have done. If I must fall, I will rise each time a better man -Brandon Sanderson, Oathbringer"); // LAGAY QUOTE
+      setQuote(
+        "I will take responsibility for what I have done. If I must fall, I will rise each time a better man -Brandon Sanderson, Oathbringer"
+      ); // LAGAY QUOTE
       setIntro(
-        'I am a student at the Technological University of the Philippines - Cavite Campus, and I often play videogames to relieve my stress.'
+        "I am a student at the Technological University of the Philippines - Cavite Campus, and I often play videogames to relieve my stress."
       ); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 2) {
@@ -38,9 +40,11 @@ const Dev = ({
       setRole("Developer");
       setImage("yagi.svg");
       setQuote(
-        '"If you are not a good shot today, don’t worry. There are other ways to be useful." - Sova'); // LAGAY QUOTE
+        '"If you are not a good shot today, don’t worry. There are other ways to be useful." - Sova'
+      ); // LAGAY QUOTE
       setIntro(
-        "I am a passionate student that excel in coding and designing using Java, C, C++, C#, PHP, Ruby, and most especially Python."); // LAGAY NIYO DITO ABOUT SAINYO
+        "I am a passionate student that excel in coding and designing using Java, C, C++, C#, PHP, Ruby, and most especially Python."
+      ); // LAGAY NIYO DITO ABOUT SAINYO
     }
     if (carousel == 3) {
       setName("Justine Upano");
@@ -57,12 +61,10 @@ const Dev = ({
       setName("James Matthew Ferrer");
       setRole("Designer");
       setImage("james.svg");
-      setQuote(
-        '"It is what it is."'
-        ); 
+      setQuote('"It is what it is."');
       setIntro(
         "22 years old computer engineering student at Technological University of the Philippines – Cavite."
-        );
+      );
     }
     if (carousel == 5) {
       setName("Daryl Magpantay");
@@ -95,7 +97,7 @@ const Dev = ({
   return (
     <div className={styledev.dev}>
       <div className={styledev.text}>
-        <span className={stylehome.spanintro}>About</span>
+        <h2 className={styledev.h2}>Our members</h2>
         <p className={styledev.p}>{intro}</p>
         <p className={styledev.p}>{quote}</p>
         <div>

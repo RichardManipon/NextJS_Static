@@ -35,29 +35,32 @@ const AboutIntro = ({ page, setPage }) => {
       </div>
       <div className={styles.msg}>
         <div>
-          <span>Mission</span>
+          <img src="/who.svg" alt="" />
+          <span>Who are we?</span>
           <p>
-            We are passionate, and strong driven individuals about application
-            development. Our mission is to help you, and your brand be known
-            effective globally.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo
+            nisi maxime hic non minima magnam voluptates nam architecto
+            consectetur?
           </p>
         </div>
         <div>
-          <span>Vision</span>
+          <img src="/what.svg" alt="" />
+          <span>What we do?</span>
           <p>
-            To be one of the world’s leading software development firm with
-            providing clean and interactive interfaces.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum
+            inventore, quae quas, consequuntur ducimus nesciunt, enim odit sequi
+            fuga delectus debitis nostrum labore aliquam corporis illo. Tempora,
+            rem harum.
           </p>
         </div>
         <div>
-          <span>Goal</span>
+          <img src="/why.svg" alt="" />
+          <span>Why choose us?</span>
           <p>
-            Create leads, increase traffic, engage prospects, and re-engage
-            existing customers to achieve your marketing goals. Sales–
-            contribute to the successful completion of sales by validating and
-            supporting the communications of the sales team. Customer Service -
-            Increase the level of pleasure experienced by Customers through
-            Improved Service
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            dolore maiores, illo aliquid unde aspernatur. Nostrum ipsam illum
+            praesentium cum facilis aliquam perferendis eligendi optio eum error
+            minima, aliquid culpa?
           </p>
         </div>
       </div>
