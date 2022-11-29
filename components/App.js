@@ -3,7 +3,6 @@ import Navbar from "/components/Navbar";
 import Menu from "/components/Menu";
 import About from "/components/About";
 import Process from "/components/Process";
-import AboutDev from "/components/AboutDev";
 import ContactIntro from "/components/ContactIntro";
 import Footer from "/components/Footer";
 import Goal from "/components/Goal";
@@ -36,12 +35,12 @@ const App = () => {
         page={page}
         setPage={setPage}
       />
-      <Home />
+      <Home setPage={setPage} />
       <Goal />
       <About page={page} setPage={setPage} />
       <Process />
       <ContactIntro />
-      <Footer />
+      <Footer setPage={setPage} />
     </div>
   );
 };

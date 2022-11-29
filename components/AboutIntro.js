@@ -1,6 +1,16 @@
 import styles from "../styles/AboutIntro.module.css";
+import router from "next/router";
+import Link from "next/link";
 
-const AboutIntro = () => {
+const AboutIntro = ({ setPage }) => {
+  const handleContactLink = (e) => {
+    e.preventDefault();
+    setPage(true);
+    setTimeout(() => {
+      router.push("/contact");
+      setPage(false);
+    }, 950);
+  };
   return (
     <div>
       <div className={styles.aboutintro}>
@@ -11,11 +21,15 @@ const AboutIntro = () => {
             teams are selected with great care. We make available to you some of
             the people of our team who will be working on your project.
           </p>
-          <a href="/contact" className={styles.contactbtn1}>
+          <Link
+            href="/contact"
+            onClick={handleContactLink}
+            className={styles.contactbtn1}
+          >
             <div></div>
             <span>Contact Us</span>
             <img src="/arrowright.svg" alt="" />
-          </a>
+          </Link>
         </div>
         <img className={styles.hero} src="/teamsvg.svg" alt="" />
       </div>

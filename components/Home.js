@@ -1,6 +1,16 @@
 import styles from "../styles/Home.module.css";
+import router from "next/router";
+import Link from "next/link";
 
-const Home = () => {
+const Home = ({ setPage }) => {
+  const handleContactLink = (e) => {
+    e.preventDefault();
+    setPage(true);
+    setTimeout(() => {
+      router.push("/contact");
+      setPage(false);
+    }, 950);
+  };
   return (
     <div className={styles.home} id="home">
       <div className={styles.text}>
@@ -13,11 +23,15 @@ const Home = () => {
           organizations all over the world outstanding software, web, mobile,
           and creative designing solutions and services.
         </p>
-        <a href="/contact" className={styles.contactbtn1}>
+        <Link
+          href="/contact"
+          onClick={handleContactLink}
+          className={styles.contactbtn1}
+        >
           <div></div>
           <span>Contact Us</span>
           <img src="/arrowright.svg" alt="" />
-        </a>
+        </Link>
       </div>
       {/* <img className={styles.hero} src="/Hero.svg" alt="" /> */}
     </div>
