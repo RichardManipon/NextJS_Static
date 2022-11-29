@@ -17,6 +17,10 @@
   margin-bottom: 10px;
 }
 
+.links {
+  font-size: 1.75rem;
+}
+
 .hamburgerdiv {
   display: flex;
   align-items: center;

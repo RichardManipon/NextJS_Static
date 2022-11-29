@@ -32,9 +32,9 @@ const AboutHome = () => {
         page={page}
         setPage={setPage}
       />
-      <AboutIntro />
+      <AboutIntro setPage={setPage} />
       <AboutDev />
-      <Footer />
+      <Footer setPage={setPage} />
     </div>
   );
 };

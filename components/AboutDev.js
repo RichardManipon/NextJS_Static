@@ -2,7 +2,7 @@ import stylehome from "../styles/Home.module.css";
 import styledev from "../styles/Dev.module.css";
 import styleglobals from "../styles/Globals.module.css";
 import Dev from "./Dev";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const AboutDev = () => {
   const [carousel, setCarousel] = useState(1);

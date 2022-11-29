@@ -10,6 +10,10 @@ const Contact = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const [page, setPage] = useState(false);
 
+  const formSubmit = (e) => {
+    alert("you have submited a form");
+  };
+
   return (
     <div>
       {page ? (
@@ -41,24 +45,39 @@ const Contact = () => {
           <form
             action="https://formsubmit.co/richard.manipon@gsfe.tupcavite.edu.ph"
             method="post"
+            onSubmit={formSubmit}
           >
             <div className={stylecontact.inputdiv}>
               <span className={stylecontact.inputspan}>Name</span>
-              <input type="text" name="" id="" />
+              <input type="text" name="" id="" required />
             </div>
             <div className={stylecontact.inputdiv}>
               <span className={stylecontact.inputspan}>Email</span>
-              <input type="text" name="" id="" />
+              <input type="email" name="" id="" required />
             </div>
             <div className={stylecontact.inputdiv}>
               <span className={stylecontact.inputspan}>Subject</span>
-              <input type="text" name="" id="" />
+              <input type="text" name="" id="" required />
             </div>
             <div className={stylecontact.inputdiv}>
               <span className={stylecontact.inputspan}>Message</span>
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
+              <textarea
+                name="message"
+                id=""
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
             </div>
-            <input className={stylecontact.send} type="submit" value="Send" />
+            <button
+              type="submit"
+              href="/contact"
+              className={stylecontact.contactbtn1}
+            >
+              <div></div>
+              <span>Send</span>
+              <img src="/arrowright.svg" alt="" />
+            </button>
           </form>
         </div>
       </section>
