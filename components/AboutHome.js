@@ -3,7 +3,7 @@ import Navbar from "/components/Navbar";
 import AboutIntro from "/components/AboutIntro";
 import AboutDev from "/components/AboutDev";
 import Footer from "/components/Footer";
-
+import Link from "next/link";
 import styles from "../styles/App.module.css";
 
 import { useState } from "react";
@@ -16,13 +16,21 @@ const AboutHome = () => {
       {page ? (
         <div className={styles.precssanimatechange}>
           <div></div>
-          <div></div>
+          <div className={styles.load}>
+            <div className={styles.logo}>
+              <Link href="/">Iskulbukul</Link>
+            </div>
+          </div>
           <div></div>
         </div>
       ) : (
         <div className={styles.precssanimate}>
-          <div></div>
-          <div></div>
+        <div></div>
+          <div className={styles.load}>
+            <div className={styles.logo}>
+              <Link href="/">Iskulbukul</Link>
+            </div>
+          </div>
           <div></div>
         </div>
       )}
