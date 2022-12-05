@@ -1,6 +1,6 @@
 import stylecontact from "../styles/Contact.module.css";
 import styles from "../styles/App.module.css";
-
+import Link from "next/link";
 import Navbar from "/components/Navbar";
 import Menu from "/components/Menu";
 
@@ -19,13 +19,21 @@ const Contact = () => {
       {page ? (
         <div className={styles.precssanimatechange}>
           <div></div>
-          <div></div>
+          <div className={styles.load}>
+            <div className={styles.logo}>
+              <Link href="/">Iskulbukul</Link>
+            </div>
+          </div>
           <div></div>
         </div>
       ) : (
         <div className={styles.precssanimate}>
-          <div></div>
-          <div></div>
+        <div></div>
+          <div className={styles.load}>
+            <div className={styles.logo}>
+              <Link href="/">Iskulbukul</Link>
+            </div>
+          </div>
           <div></div>
         </div>
       )}
