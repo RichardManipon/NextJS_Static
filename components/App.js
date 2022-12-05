@@ -9,6 +9,8 @@ import Goal from "/components/Goal";
 import styles from "../styles/App.module.css";
 import { useState } from "react";
 
+import Link from "next/link";
+
 const App = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const [page, setPage] = useState(false);
@@ -18,13 +20,21 @@ const App = () => {
       {page ? (
         <div className={styles.precssanimatechange}>
           <div></div>
-          <div></div>
+          <div className={styles.load}>
+            <div className={styles.logo}>
+              <Link href="/">Iskulbukul</Link>
+            </div>
+          </div>
           <div></div>
         </div>
       ) : (
         <div className={styles.precssanimate}>
-          <div></div>
-          <div></div>
+        <div></div>
+          <div className={styles.load}>
+            <div className={styles.logo}>
+              <Link href="/">Iskulbukul</Link>
+            </div>
+          </div>
           <div></div>
         </div>
       )}
