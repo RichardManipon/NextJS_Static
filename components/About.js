@@ -38,29 +38,30 @@ const AboutIntro = ({ page, setPage }) => {
           <img src="/who.svg" alt="" />
           <span>Who are we?</span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo
-            nisi maxime hic non minima magnam voluptates nam architecto
-            consectetur?
+          Our group originates from the Philippines. We are reputable web developers and 
+          designers with a great love for both technology and design. With more than 5 
+          years of combined expertise in a variety of creative disciplines, we are product 
+          designers, experience designers, and multidisciplinary creators.
           </p>
         </div>
         <div>
           <img src="/what.svg" alt="" />
           <span>What we do?</span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum
-            inventore, quae quas, consequuntur ducimus nesciunt, enim odit sequi
-            fuga delectus debitis nostrum labore aliquam corporis illo. Tempora,
-            rem harum.
+          Our areas of expertise include full-stack development, UI/UX, and the creation 
+          of sophisticated and expert web applications. Along with photo editing, image 
+          cropping, and other graphic design services, we also provide branding and identity 
+          design services, including the creation of logos, letterhead, and business cards.
           </p>
         </div>
         <div>
           <img src="/why.svg" alt="" />
           <span>Why choose us?</span>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            dolore maiores, illo aliquid unde aspernatur. Nostrum ipsam illum
-            praesentium cum facilis aliquam perferendis eligendi optio eum error
-            minima, aliquid culpa?
+          We are fueled by high energy levels and boundless enthusiasm. We are easily inspired 
+          and more than willing to follow different fascinations. We have passionate, expressive, 
+          multi-talented spirit with a natural ability to entertain and inspire. We have the utmost 
+          expertise to design and develop websites upon the request of our beloved clients.
           </p>
         </div>
       </div>
