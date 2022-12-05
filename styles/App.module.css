@@ -88,3 +88,18 @@
     margin-left: -100%;
   }
 }
+
+.logo a {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-size: 4.75rem;
+  text-align: center;
+  color: rgb(224, 224, 224);
+  text-shadow: 2px 2px #36007c;
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
