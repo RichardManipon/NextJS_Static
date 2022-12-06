@@ -35,12 +35,13 @@ const Footer = ({ setPage }) => {
       </Link>
       <div className={styles.copyright}>
         <p>@ 2022 Iskulbukul | NextJS</p>
-        <a
+        <Link
           href="https://github.com/RichardManipon/NextJS_Static"
           target="_blank"
+          rel="noreferrer"
         >
           <Image src="/github.svg" alt="" />
-        </a>
+        </Link>
       </div>
     </footer>
   );
