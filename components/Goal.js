@@ -11,7 +11,7 @@ const Goal = () => {
           <p className={styles.p}>
             We're unique. We offer unique access to a professional development
             team with a click. Iskulbukul specializes in end-to-end website
-            development services. We’re taking away the fear of getting
+            development services. We're taking away the fear of getting
             stranded, lack of communication, and unneeded expenses. We will even
             train you if you wish to learn yourself. Our mission is clear,
             deliver quick, easy, rapid, transparent, and economical services
@@ -55,11 +55,11 @@ const Goal = () => {
         <div className={styles.text}>
           <h4 className={styles.span}>Design</h4>
           <p className={styles.p}>
-            Our organization is special. We are the only significant web design
-            and development firm where the business owners both create the work
+            Our organization is special. We are the only significant web design
+            and development firm where the business owners both create the work
             and act as the client's first point of contact. This represents our
             belief that great design requires passion, intelligence, and—above
-            all—personal devotion. 
+            all—personal devotion. 
           </p>
         </div>
         <Image src="/goal3.svg" alt="" />
