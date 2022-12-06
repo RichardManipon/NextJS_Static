@@ -1,7 +1,7 @@
 import stylecontact from "../styles/Contact.module.css";
 import styles from "../styles/App.module.css";
 import Link from "next/link";
-import Image from "next/image";
+// import img from "next/image";
 import Navbar from "/components/Navbar";
 import Menu from "/components/Menu";
 
@@ -85,7 +85,7 @@ const Contact = () => {
             >
               <div></div>
               <span>Send</span>
-              <Image src="/arrowright.svg" alt="" />
+              <img src="/arrowright.svg" alt="" />
             </button>
           </form>
         </div>
@@ -97,7 +97,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <Image src="/github.svg" alt="" />
+          <img src="/github.svg" alt="" />
         </Link>
       </div>
     </div>

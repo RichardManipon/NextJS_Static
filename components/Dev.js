@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Image from "next/image";
+// import img from "next/image";
 
 const Dev = ({
   stylehome,
@@ -107,14 +107,14 @@ const Dev = ({
         </div>
       </div>
       <div className={styledev.imgdiv}>
-        <Image className={styledev.img} src={"/" + image} alt="" />
+        <img className={styledev.img} src={"/" + image} alt="" />
         <div className={styledev.btngroup}>
-          <Image
+          <img
             src="/prev-btn.svg"
             alt=""
             onClick={() => handleNextPrevBtn(false)}
           />
-          <Image
+          <img
             src="/next-btn.svg"
             alt=""
             onClick={() => handleNextPrevBtn(true)}

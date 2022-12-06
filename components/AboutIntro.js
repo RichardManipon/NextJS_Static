@@ -1,7 +1,7 @@
 import styles from "../styles/AboutIntro.module.css";
 import router from "next/router";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 const AboutIntro = ({ setPage }) => {
   const handleContactLink = (e) => {
@@ -29,10 +29,10 @@ const AboutIntro = ({ setPage }) => {
           >
             <div></div>
             <span>Contact Us</span>
-            <Image src="/arrowright.svg" alt="" />
+            <img src="/arrowright.svg" alt="" />
           </Link>
         </div>
-        <Image className={styles.hero} src="/teamsvg.svg" alt="" />
+        <img className={styles.hero} src="/teamsvg.svg" alt="" />
       </div>
       <div className={styles.story}>
         <div className={styles.text}>
@@ -45,7 +45,7 @@ const AboutIntro = ({ setPage }) => {
             software solutions. 
           </p>
         </div>
-        <Image className={styles.hero} src="/devs.png" alt="" />
+        <img className={styles.hero} src="/devs.png" alt="" />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import styles from "../styles/Goal.module.css";
-import Image from "next/image";
+// import img from "next/img";
 
 const Goal = () => {
   return (
@@ -9,7 +9,7 @@ const Goal = () => {
           <span className={styles.spanintro}>What we do</span>
           <h2>We build remarkable applications</h2>
           <p className={styles.p}>
-            We're unique. We offer unique access to a professional development
+            We&aposre unique. We offer unique access to a professional development
             team with a click. Iskulbukul specializes in end-to-end website
             development services. We're taking away the fear of getting
             stranded, lack of communication, and unneeded expenses. We will even
@@ -18,7 +18,7 @@ const Goal = () => {
             without compromising quality.
           </p>
         </div>
-        <Image src="/remarkable.svg" alt="" />
+        <img src="/remarkable.svg" alt=""  />
       </div>
       <div className={styles.row}>
         <div className={styles.text}>
@@ -33,7 +33,7 @@ const Goal = () => {
             will eventually lead to them trying out your goods and services.
           </p>
         </div>
-        <Image src="/goal1.svg" alt="" />
+        <img src="/goal1.svg" alt="" />
       </div>
       <div className={styles.row}>
         <div className={styles.text}>
@@ -49,7 +49,7 @@ const Goal = () => {
             websites, and hotel booking systems.
           </p>
         </div>
-        <Image src="/goal2.svg" alt="" />
+        <img src="/goal2.svg" alt="" />
       </div>
       <div className={styles.row}>
         <div className={styles.text}>
@@ -62,7 +62,7 @@ const Goal = () => {
             all—personal devotion. 
           </p>
         </div>
-        <Image src="/goal3.svg" alt="" />
+        <img src="/goal3.svg" alt="" />
       </div>
     </section>
   );
