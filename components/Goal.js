@@ -9,7 +9,7 @@ const Goal = () => {
           <span className={styles.spanintro}>What we do</span>
           <h2>We build remarkable applications</h2>
           <p className={styles.p}>
-            We&aposre unique. We offer unique access to a professional development
+            We're unique. We offer unique access to a professional development
             team with a click. Iskulbukul specializes in end-to-end website
             development services. We're taking away the fear of getting
             stranded, lack of communication, and unneeded expenses. We will even
