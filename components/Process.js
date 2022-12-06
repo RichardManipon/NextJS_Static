@@ -19,7 +19,7 @@ const Proccess = () => {
         <div className={styles.processes}>
           <div>
             <span className={styles.number}>1</span>
-            <div>
+            <div className={styles.steps}>
               <span className={styles.processspan}>Planning</span>
               <p className={styles.p}>
                 Iskulbukul is always establishing goals and objectives for a
@@ -29,7 +29,7 @@ const Proccess = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className={styles.steps}>
             <span className={styles.number}>2</span>
             <div>
               <span className={styles.processspan}>Designing</span>
@@ -44,7 +44,7 @@ const Proccess = () => {
           </div>
           <div>
             <span className={styles.number}>3</span>
-            <div>
+            <div className={styles.steps}>
               <span className={styles.processspan}>Development</span>
               <p className={styles.p}>
                 Iskulbukul always plan and decide ahead of time for the

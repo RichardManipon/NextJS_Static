@@ -45,7 +45,7 @@ const AboutIntro = ({ setPage }) => {
             software solutions. 
           </p>
         </div>
-        <img className={styles.hero} src="/devs.png" alt="" />
+        <img className={styles.hero2} src="/devs.png" alt="" />
       </div>
     </div>
   );
