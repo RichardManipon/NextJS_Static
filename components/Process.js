@@ -1,4 +1,5 @@
 import styles from "../styles/Process.module.css";
+import Image from "next/image";
 
 const Proccess = () => {
   return (
@@ -13,7 +14,7 @@ const Proccess = () => {
             Development processes to fulfill and accomplish the requests of our
             clients.
           </p>
-          <img className={styles.img} src="/process.svg" alt="" />
+          <Image className={styles.img} src="/process.svg" alt="" />
         </div>
         <div className={styles.processes}>
           <div>

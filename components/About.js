@@ -1,5 +1,7 @@
 import styles from "../styles/About.module.css";
 import router from "next/router";
+import Link from "next/link";
+import Image from "next/image";
 
 const AboutIntro = ({ page, setPage }) => {
   const handleAboutLink = (e) => {
@@ -21,21 +23,21 @@ const AboutIntro = ({ page, setPage }) => {
             teams are selected with great care. We make available to you some of
             the people of our team who will be working on your project.
           </p>
-          <a
+          <Link
             href="/about"
             className={styles.contactbtn1}
             onClick={handleAboutLink}
           >
             <div></div>
             <span>About Us</span>
-            <img src="/arrowright.svg" alt="" />
-          </a>
+            <Image src="/arrowright.svg" alt="" />
+          </Link>
         </div>
-        <img className={styles.img} src="/devs.png" alt="" />
+        <Image className={styles.img} src="/devs.png" alt="" />
       </div>
       <div className={styles.msg}>
         <div>
-          <img src="/who.svg" alt="" />
+          <Image src="/who.svg" alt="" />
           <span>Who are we?</span>
           <p>
           Our group originates from the Philippines. We are reputable web developers and 
@@ -45,7 +47,7 @@ const AboutIntro = ({ page, setPage }) => {
           </p>
         </div>
         <div>
-          <img src="/what.svg" alt="" />
+          <Image src="/what.svg" alt="" />
           <span>What we do?</span>
           <p>
           Our areas of expertise include full-stack development, UI/UX, and the creation 
@@ -55,7 +57,7 @@ const AboutIntro = ({ page, setPage }) => {
           </p>
         </div>
         <div>
-          <img src="/why.svg" alt="" />
+          <Image src="/why.svg" alt="" />
           <span>Why choose us?</span>
           <p>
           We are fueled by high energy levels and boundless enthusiasm. We are easily inspired 

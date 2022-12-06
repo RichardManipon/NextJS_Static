@@ -1,4 +1,5 @@
 import styles from "../styles/Menu.module.css";
+import Link from "next/link";
 
 const Menu = ({ setHamburgerMenu }) => {
   return (
@@ -16,13 +17,13 @@ const Menu = ({ setHamburgerMenu }) => {
 
       <ul className={styles.links}>
         <li>
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
     </div>

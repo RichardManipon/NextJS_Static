@@ -1,4 +1,5 @@
 import styles from "../styles/Goal.module.css";
+import Image from "next/image";
 
 const Goal = () => {
   return (
@@ -17,7 +18,7 @@ const Goal = () => {
             without compromising quality.
           </p>
         </div>
-        <img src="/remarkable.svg" alt="" />
+        <Image src="/remarkable.svg" alt="" />
       </div>
       <div className={styles.row}>
         <div className={styles.text}>
@@ -32,7 +33,7 @@ const Goal = () => {
             will eventually lead to them trying out your goods and services.
           </p>
         </div>
-        <img src="/goal1.svg" alt="" />
+        <Image src="/goal1.svg" alt="" />
       </div>
       <div className={styles.row}>
         <div className={styles.text}>
@@ -48,7 +49,7 @@ const Goal = () => {
             websites, and hotel booking systems.
           </p>
         </div>
-        <img src="/goal2.svg" alt="" />
+        <Image src="/goal2.svg" alt="" />
       </div>
       <div className={styles.row}>
         <div className={styles.text}>
@@ -61,7 +62,7 @@ const Goal = () => {
             all—personal devotion. 
           </p>
         </div>
-        <img src="/goal3.svg" alt="" />
+        <Image src="/goal3.svg" alt="" />
       </div>
     </section>
   );

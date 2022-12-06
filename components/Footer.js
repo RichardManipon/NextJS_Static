@@ -1,6 +1,7 @@
 import styles from "../styles/Footer.module.css";
 import router from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = ({ setPage }) => {
   const handleContactLink = (e) => {
@@ -30,7 +31,7 @@ const Footer = ({ setPage }) => {
       >
         <div></div>
         <span>Contact Us</span>
-        <img src="/arrowright.svg" alt="" />
+        <Image src="/arrowright.svg" alt="" />
       </Link>
       <div className={styles.copyright}>
         <p>@ 2022 Iskulbukul | NextJS</p>
@@ -38,7 +39,7 @@ const Footer = ({ setPage }) => {
           href="https://github.com/RichardManipon/NextJS_Static"
           target="_blank"
         >
-          <img src="/github.svg" alt="" />
+          <Image src="/github.svg" alt="" />
         </a>
       </div>
     </footer>

@@ -1,6 +1,7 @@
 import stylecontact from "../styles/Contact.module.css";
 import styles from "../styles/App.module.css";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "/components/Navbar";
 import Menu from "/components/Menu";
 
@@ -84,19 +85,20 @@ const Contact = () => {
             >
               <div></div>
               <span>Send</span>
-              <img src="/arrowright.svg" alt="" />
+              <Image src="/arrowright.svg" alt="" />
             </button>
           </form>
         </div>
       </section>
       <div className={stylecontact.copyright}>
         <p>@ 2022 Iskulbukul | NextJS</p>
-        <a
+        <Link
           href="https://github.com/RichardManipon/NextJS_Static"
           target="_blank"
+          rel="noreferrer"
         >
-          <img src="/github.svg" alt="" />
-        </a>
+          <Image src="/github.svg" alt="" />
+        </Link>
       </div>
     </div>
   );

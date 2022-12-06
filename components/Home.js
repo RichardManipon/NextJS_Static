@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 import router from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 const Home = ({ setPage }) => {
   const handleContactLink = (e) => {
@@ -30,7 +31,7 @@ const Home = ({ setPage }) => {
         >
           <div></div>
           <span>Contact Us</span>
-          <img src="/arrowright.svg" alt="" />
+          <Image src="/arrowright.svg" alt="" />
         </Link>
       </div>
       {/* <img className={styles.hero} src="/Hero.svg" alt="" /> */}
