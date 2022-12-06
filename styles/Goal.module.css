@@ -15,8 +15,8 @@
 }
 
 .remarkable img {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   max-width: 500px;
   max-height: 260px;
 }
@@ -65,8 +65,15 @@
   .remarkable {
     flex-direction: column;
   }
+  .text {
+    width: 100%;
+  }
   .spanintro {
     font-size: var(--spanintrosizem);
+  }
+  .remarkable img {
+    height: 100%;
+    width: 100%;
   }
   .remarkable h2 {
     font-size: var(--h2sizem);

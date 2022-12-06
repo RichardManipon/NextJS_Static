@@ -1,6 +1,16 @@
 import styles from "../styles/Footer.module.css";
+import router from "next/router";
+import Link from "next/link";
 
-const Footer = () => {
+const Footer = ({ setPage }) => {
+  const handleContactLink = (e) => {
+    e.preventDefault();
+    setPage(true);
+    setTimeout(() => {
+      router.push("/contact");
+      setPage(false);
+    }, 950);
+  };
   return (
     <footer className={styles.footer}>
       <div className={styles.text}>
@@ -13,11 +23,15 @@ const Footer = () => {
         We are open to any opportunities, our inbox is always open. Do you want
         to say hi or need help? Feel free to message us.
       </p>
-      <a href="#contact" className={styles.contactbtn1}>
+      <Link
+        href="/contact"
+        onClick={handleContactLink}
+        className={styles.contactbtn1}
+      >
         <div></div>
         <span>Contact Us</span>
         <img src="/arrowright.svg" alt="" />
-      </a>
+      </Link>
       <div className={styles.copyright}>
         <p>@ 2022 Iskulbukul | NextJS</p>
         <a
