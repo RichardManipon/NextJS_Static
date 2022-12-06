@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-// import img from "next/image";
 
 const Dev = ({
   stylehome,

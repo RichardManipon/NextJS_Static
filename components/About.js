@@ -1,7 +1,7 @@
 import styles from "../styles/About.module.css";
 import router from "next/router";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 const AboutIntro = ({ page, setPage }) => {
   const handleAboutLink = (e) => {

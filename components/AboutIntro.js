@@ -1,7 +1,7 @@
 import styles from "../styles/AboutIntro.module.css";
 import router from "next/router";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 const AboutIntro = ({ setPage }) => {
   const handleContactLink = (e) => {
