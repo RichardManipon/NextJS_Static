@@ -73,6 +73,14 @@
   .processintro {
     padding: 80px 30px;
   }
+  .processspan{
+    text-align: center;
+  }
+  .steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .spanintro {
     font-size: var(--spanintrosizem);
   }
