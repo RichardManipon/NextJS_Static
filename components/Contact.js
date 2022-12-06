@@ -11,9 +11,6 @@ const Contact = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const [page, setPage] = useState(false);
 
-  const formSubmit = (e) => {
-    alert("you have submited a form");
-  };
 
   return (
     <div>
@@ -54,7 +51,6 @@ const Contact = () => {
           <form
             action="https://formsubmit.co/richard.manipon@gsfe.tupcavite.edu.ph"
             method="post"
-            onSubmit={formSubmit}
           >
             <div className={stylecontact.inputdiv}>
               <span className={stylecontact.inputspan}>Name</span>
