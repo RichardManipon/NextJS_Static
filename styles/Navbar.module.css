@@ -29,6 +29,10 @@
   width: 260px;
 }
 
+.links a:hover {
+  color: black;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
