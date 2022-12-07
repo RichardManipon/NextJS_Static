@@ -89,6 +89,10 @@
     font-size: var(--h1sizem);
   }
 
+  .h2 {
+    font-size: var(--h2sizem);
+  }
+
   .text {
     width: 100%;
   }
